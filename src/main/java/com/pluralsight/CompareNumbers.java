@@ -5,7 +5,7 @@ public class CompareNumbers {
     public static void main(String[] args) {
 
         System.out.println(isEven(10));
-        System.out.println();
+        System.out.println(isPositive(-10));
 
     }
 
