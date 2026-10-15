@@ -10,6 +10,10 @@ public class Hello {
     }
 
     //Create method sayGoodbye() that prints "Goodbye!"
+    public static void sayGoodbye(){
+        System.out.println("Goodbye!");
+    }
+
     //Create method sayGoodMorning() that prints "Good morning!"
     //Create method Call each method from main()
 }
