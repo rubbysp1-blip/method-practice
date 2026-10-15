@@ -3,6 +3,11 @@ package com.pluralsight;
 public class Hello {
     public static void main(String[] args) {
 
+        //Call each method from main()
+        sayHello();
+        sayGoodbye();
+        sayGoodMorning();
+
     }
     //Create method sayHello() that prints "Hello, World!"
     public static void sayHello(){
@@ -18,5 +23,7 @@ public class Hello {
     public static void sayGoodMorning(){
         System.out.println("Good Morning!");
     }
-    //Create method Call each method from main()
+
+
+
 }
