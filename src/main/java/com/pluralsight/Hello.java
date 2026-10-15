@@ -15,5 +15,8 @@ public class Hello {
     }
 
     //Create method sayGoodMorning() that prints "Good morning!"
+    public static void sayGoodMorning(){
+        System.out.println("Good Morning!");
+    }
     //Create method Call each method from main()
 }
