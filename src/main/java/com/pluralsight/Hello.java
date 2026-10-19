@@ -7,23 +7,31 @@ public class Hello {
         sayHello();
         sayGoodbye();
         sayGoodMorning();
+        sayHelloTo("Vanesa");
+        sayHelloTo("Carolina");
 
     }
     //Create method sayHello() that prints "Hello, World!"
     public static void sayHello(){
+
         System.out.println("Hello World!");
     }
 
     //Create method sayGoodbye() that prints "Goodbye!"
     public static void sayGoodbye(){
+
         System.out.println("Goodbye!");
     }
 
     //Create method sayGoodMorning() that prints "Good morning!"
     public static void sayGoodMorning(){
+
         System.out.println("Good Morning!");
     }
 
+    public static void sayHelloTo(String name){
 
+        System.out.println("Hello " + name);
+    }
 
 }
